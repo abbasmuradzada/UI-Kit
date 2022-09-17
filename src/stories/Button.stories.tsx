@@ -15,12 +15,13 @@ const Template = (args: any) => <Button {...args} />;
 
 export const Primary: any = Template.bind({});
 Primary.args = {
-  variant: E_BUTTON_VARIANTS.SECONDARY,
+  variant: E_BUTTON_VARIANTS.PRIMARY,
   label: "Button",
 };
 
 export const Secondary: any = Template.bind({});
 Secondary.args = {
+  variant: E_BUTTON_VARIANTS.SECONDARY,
   label: "Button",
 };
 

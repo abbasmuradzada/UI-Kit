@@ -33,33 +33,3 @@ export const Button = ({
     </button>
   );
 };
-
-// Button.propTypes = {
-//   /**
-//    * Is this the principal call to action on the page?
-//    */
-//   variant: PropTypes.oneOf(["primary", "secondary", "outlined", "disabled"]),
-//   /**
-//    * What background color to use
-//    */
-//   backgroundColor: PropTypes.string,
-//   /**
-//    * How large should the button be?
-//    */
-//   size: PropTypes.oneOf(["small", "medium", "large"]),
-//   /**
-//    * Button contents
-//    */
-//   label: PropTypes.string.isRequired,
-//   /**
-//    * Optional click handler
-//    */
-//   onClick: PropTypes.func,
-// };
-
-// Button.defaultProps = {
-//   backgroundColor: null,
-//   variant: "primary",
-//   size: "medium",
-//   onClick: undefined,
-// };
