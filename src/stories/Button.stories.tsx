@@ -25,6 +25,12 @@ Secondary.args = {
   label: "Button",
 };
 
+export const Outlined: any = Template.bind({});
+Outlined.args = {
+  variant: E_BUTTON_VARIANTS.OUTLINED,
+  label: "Button",
+};
+
 export const Large: any = Template.bind({});
 Large.args = {
   size: E_BUTTON_SIZES.LARGE,
