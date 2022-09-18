@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { E_BUTTON_SIZES, E_BUTTON_VARIANTS } from "../constants/enums";
-import "./button.scss";
+import { E_BUTTON_SIZES, E_BUTTON_VARIANTS } from "../../constants/enums";
+import "./textfield.scss";
 
 /**
  * Primary UI component for user interaction

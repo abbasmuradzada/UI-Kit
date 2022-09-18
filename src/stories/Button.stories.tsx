@@ -1,14 +1,11 @@
 import React from "react";
 import { E_BUTTON_SIZES, E_BUTTON_VARIANTS } from "../constants/enums";
-
-import { Button } from "./Button";
+import { Add } from "@mui/icons-material";
+import { Button } from "../components";
 
 export default {
   title: "Example/Button",
   component: Button,
-  argTypes: {
-    backgroundColor: { control: "color" },
-  },
 };
 
 const Template = (args: any) => <Button {...args} />;
@@ -17,18 +14,37 @@ export const Primary: any = Template.bind({});
 Primary.args = {
   variant: E_BUTTON_VARIANTS.PRIMARY,
   label: "Button",
+  size: E_BUTTON_SIZES.MEDIUM,
 };
 
 export const Secondary: any = Template.bind({});
 Secondary.args = {
   variant: E_BUTTON_VARIANTS.SECONDARY,
-  label: "Button",
+  label: "Secondary",
 };
 
 export const Outlined: any = Template.bind({});
 Outlined.args = {
   variant: E_BUTTON_VARIANTS.OUTLINED,
   label: "Button",
+};
+
+export const Disabled: any = Template.bind({});
+Disabled.args = {
+  variant: E_BUTTON_VARIANTS.DISABLED,
+  label: "Button",
+};
+
+export const Icon: any = Template.bind({});
+Icon.args = {
+  label: "Button",
+  icon: <Add />,
+};
+
+export const Loader: any = Template.bind({});
+Loader.args = {
+  label: "Button",
+  loader: true,
 };
 
 export const Large: any = Template.bind({});
